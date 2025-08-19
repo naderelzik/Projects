@@ -26,32 +26,6 @@ A small, user-friendly CLI tool for quickly loading, cleaning, and exploring bik
 
 ---
 
-## Installation
-
-1. (Optional) Create and activate a virtual environment:
-
-```bash
-python -m venv .venv
-# macOS / Linux
-source .venv/bin/activate
-# Windows
-.venv\Scripts\activate
-```
-
-2. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-`requirements.txt` contents example:
-
-```
-pandas
-numpy
-```
-
----
 
 ## Input data
 
@@ -131,31 +105,9 @@ Earliest year of birth is: 1946 , recent year of birth is: 2002 and common year 
 
 ---
 
-## Suggested improvements & roadmap
-
-* Add `argparse` support for non-interactive or batch usage (script flags for city/month/day).
-* Provide export options (`--export-csv`, `--export-json`) to save summary statistics.
-* Add unit tests and CI checks for missing-column handling and edge cases (empty or tiny CSVs).
-* Add chunked reading or Dask support for handling very large files (>1M rows).
-* Add a concise HTML/Markdown report generator for quick sharing with stakeholders.
-
----
-
-## Contributing
-
-1. Fork this repository
-2. Create a feature branch: `git checkout -b feature/foo`
-3. Run tests and linters locally (add tests in `tests/`) and update README as needed
-4. Submit a pull request describing your change
-
----
 
 ## License
 
 Choose a license (MIT recommended for academic/demo code).
 
 ---
-
-## Contact
-
-If you use or improve this project, open an issue or submit a PR. For questions or collaboration, add contact details or a link to your GitHub/LinkedIn profile.
